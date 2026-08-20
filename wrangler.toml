@@ -9,7 +9,7 @@ node_compat = true
 # Build settings
 [build]
 command = "npm run build"
-watch_dir = "src"
+watch_dir = "dist"
 
 # Environment
 workers_dev = true
