@@ -8,13 +8,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run publish",
+    "build": "tsc -p tscofing.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:debug": "DEBUG=youtube-caption-extractor vitest run",
     "lint": "eslint src --ext .ts",
     "prepublishOnly": "npm run build",
-    "deploy": "npm run deploy"
+    "deploy": "npm run build"
   },
   "keywords": [
     "youtube",
